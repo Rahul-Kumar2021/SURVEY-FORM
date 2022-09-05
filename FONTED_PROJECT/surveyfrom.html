@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survery</title>
+    <style>
+        *{
+            margin:0;
+        }
+       /*body{
+            height:10vh;
+            width:10vw;
+            margin:70px;
+            padding:40%;
+            text-shadow: 10px;
+            display: inline-block;
+            background-color:green;
+            text-align: justify;
+        }*/
+        /*from{
+            height:10vh;
+            width:10vw;
+            padding:40%;
+            text-align: centre;
+            
+        }*/
+        body{
+            background-color: greenyellow;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        .main{
+            background-color:white;
+            max-width:500px;
+            margin:50px auto;
+            padding:30px 20px;
+        }
+        .contral{
+            text-align: left;
+            padding:50px;
+        }
+        .main button{
+            background-color: rgb(17, 24, 17);
+            padding:10px;
+            margin-bottom: 5px 10px 15;
+        }
+        h1{
+            padding:10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>GeeksforGeeksSurvery From</h1>
+    <div class = "main">
+        <div class = "contral">
+            <from>
+                <label>Name</label>
+                <br><br>
+                <input type = "text" name = "name" placeholder = "Enter your name">
+                <br><br>
+                <label>Email</label>
+                <br><br>
+                <input type = "text" name = "email" placeholder = "Enter your email">
+                <br><br>
+                <label>age</label>
+                <br><br>
+                <input type = "number" name = "age" placeholder = "Enter your age">
+                <br><br>
+                <label>which option best discrieb</label>
+                <br>
+                <select>
+                    <option value = "student">Student</option>
+                    <br>
+                    <option value = "intern">intern</option>
+                    <br>
+                    <option value = "professional">professional</option>
+                    <br>
+                    <option value = "professional">professional</option>
+                    <br>
+                </select>
+                <br><br>
+                <label>Would you recommended GeeksforGeeks to a friends</label>
+                <br>
+                <lable for = "recommed-1">
+                    <input type ="radio" id ="recommed-1" name="recommed">Yes</input>
+                </lable>
+                <br>
+                <lable for = "recommed-2">
+                    <input type ="radio" id ="recommed-2" name="recommed">No</input>
+                </lable>
+                <br>
+                <lable for = "recommed-3">
+                    <input type ="radio" id ="recommed-3" name="recommed">Maybe</input>
+                </lable>
+                <br><br>
+                <label>Language and Frameworks know
+                <small>(check all that apply)</small>
+                </label>
+                <br>
+                <label for = "inp-1">
+                    <input type = "checkbox" name = "inp">C</label>
+                </label>
+                <br>
+                <label for = "inp-2">
+                    <input type = "checkbox" name = "inp">C++</label>
+                </label>
+                <br>
+                <label for = "inp-3">
+                    <input type = "checkbox" name = "inp">C#</label>
+                </label>
+                <br>
+                <label for = "inp-4">
+                    <input type = "checkbox" name = "inp">java</label>
+                </label>
+                <br>
+                <label for = "inp-5">
+                    <input type = "checkbox" name = "inp">Python</label>
+                </label>
+                <br>
+                <label for = "inp-6">
+                    <input type = "checkbox" name = "inp">JavaScript</label>
+                </label>
+                <br>
+                <label for = "inp-6">
+                    <input type = "checkbox" name = "inp">React</label>
+                </label>
+                <br>
+                <label for = "inp-7">
+                    <input type = "checkbox" name = "inp">Angular</label>
+                </label>
+                <br>
+                <label for = "inp-8">
+                    <input type = "checkbox" name = "inp">django</label>
+                </label>
+                <br>
+                <label for = "inp-9">
+                    <input type = "checkbox" name = "inp">Spring</label>
+                </label>
+                <br><br>
+                <label>comment</label>
+                <br>
+                <textarea name = "comment" name = "comment" placeholder = "Enter your comment"></textarea>
+                <br>
+                
+            </from>
+        </div>
+        <button type = "submit" value = "submit">Submit</button>
+    </div>
+</body>
+</html>
